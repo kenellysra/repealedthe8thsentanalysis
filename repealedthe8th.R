@@ -18,5 +18,7 @@ tweets <-rbind(tweets, searchTwitter(keywords[2], n=1500))
 tweetsdf <- do.call("rbind", lapply(tweets, as.data.frame))
 head(tweetsdf$id)
 
+
 setwd("/home/kenelly/workspaces/r/rsentimentanalysis/")
 write.csv(tweetsdf, file = "tweetsrepeal.csv")
+
