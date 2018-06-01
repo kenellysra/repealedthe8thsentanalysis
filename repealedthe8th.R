@@ -15,9 +15,9 @@ setup_twitter_oauth(api_key, api_secret, access_token, access_tokens_secret)
 keywords <- c("#repealedthe8th")
 tweets <-searchTwitter("#repealedthe8th", n = 1e4, lang = "en", since = '2018-05-26', 
                        until = '2018-05-28', retryOnRateLimit = 1e3)
-tweetsdf <- do.call("rbind", lapply(tweets, as.data.frame))
+tweetsdf <- twListToDF(tweets)
 str(tweetsdf)
-head(tweetsdf$id)
+head(tweetsdf$text)
 
 
 setwd("/home/kenelly/workspaces/r/rsentimentanalysis/")
