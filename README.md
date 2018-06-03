@@ -14,8 +14,8 @@ Files description:
 
 * repealedthe8th.R: Extraction of tweets. Code in R. Main library: twitteR
 * tweetsanalysis.R: Data cleaning and preparation. Main library: stringR
-                    Wordcloud. Main library: tm and wordcloud
-                    Sentiment Analysis. API: Aylien Text Analysis API 
+                    |Wordcloud. Main library: tm and wordcloud
+                    |Sentiment Analysis. API: Aylien Text Analysis API 
 * positivenegativewordcloud.R: Wordcloud for positive and negative tweets. Main library: tm and wordcloud
 
 ![alt text](wordcloud_repealedthe8th.png "Repealedthe8th WordCloud")
