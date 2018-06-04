@@ -1,4 +1,4 @@
-# repealedthe8thsentanalysis
+# #RepealedThe8th Sentiment Analysis
 A sentiment analysis in R of #repealedthe8th 
 
 On 25.05.18, Ireland voted to repeal the 8th Amendment of the Constitution, which
@@ -18,7 +18,10 @@ Files description:
                     |Sentiment Analysis. API: Aylien Text Analysis API 
 * positivenegativewordcloud.R: Wordcloud for positive and negative tweets. Main library: tm and wordcloud
 
+Repealedthe8th WordCloud
 ![alt text](wordcloud_repealedthe8th.png "Repealedthe8th WordCloud")
 
+Repealedthe8th Sentiment Analysis
+![alt text](sentimentanalysis_repealedthe8th.png "Repealedthe8th Sentiment Analysis")
 
 
